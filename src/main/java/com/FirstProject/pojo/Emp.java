@@ -1,4 +1,4 @@
-package com.FirstProject.POJO;
+package com.FirstProject.pojo;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -7,7 +7,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 @Entity
-public class Home {
+public class Emp {
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
